@@ -1,0 +1,108 @@
+/*#first-section{
+	background-image: url("../img/tech/first.jpg");
+	opacity: 10;
+	border-radius: 5px;
+	width: auto;
+	color: white;
+	height: 60vh;
+}*/
+
+.nav-link{
+	font-weight: 600;
+}
+.navbar-toggler{
+	padding-right: 20px;
+	outline: none !important;
+	border: none !important;
+}
+main{
+	font-family: Montserrat,sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+#text{
+	padding-top: 50px;
+}
+#img-shipping{
+	width: 400px;
+	height: auto;
+}
+.padded{
+	padding: 25px;
+}
+.menu-bar, .another{
+	background: linear-gradient(-90deg, #d38312, #a83279),
+	url("../img/tech/first.jpg") center no-repeat;
+
+	/*background: linear-gradient(rgba(16,29,44,.95),rgba(16,29,44,.95)),
+	url("../img/tech/first.jpg") center no-repeat;*/
+}
+.page{
+	padding: 20px;
+}
+.card-hover:hover {
+	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.shadowed {
+	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.margined{
+	margin-bottom: 20px;
+}
+#background-yellowed{
+	background-color: #ffebcd !important;
+}
+#padded-top{
+	padding-top: 25px;
+}
+#margined-top-bottom{
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.page-footer{
+	padding-top: 30px;
+	text-align: left;
+}
+.dark{
+	background-color: #2b2f31;
+	color: #fff;
+}
+.footer-copyright{
+	padding-top: 20px;
+	background-color: #222425;
+	/*width: 100%;
+	height: 10vh;*/
+	border-color: #222425;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: center;
+	margin-top: 50px;
+	border: 1px solid #222425;
+}
+.page-footer h5{
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 30px;
+	
+}
+.page-footer  a{
+	color: #d2d1d1;
+	background-color: transparent;
+	text-decoration: none;
+}
+.page-footer ul{
+	list-style-type: none;
+	padding-left: 0;
+	line-height: 1.7;
+}
+.page-footer ul li{
+	position: relative;
+	padding-left: 10px;
+}
+.padd-row{
+	padding-top: 60px;
+}
+.move-left{
+	padding-left: 20%;
+}

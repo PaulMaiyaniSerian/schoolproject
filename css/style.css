@@ -9,14 +9,22 @@
 
 .nav-link{
 	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+
+	
+}
+
+.nav-item .active{
+	color: #fff!important;
 }
 .navbar-toggler{
 	padding-right: 20px;
 	outline: none !important;
 	border: none !important;
 }
-main{
-	font-family: Montserrat,sans-serif;
+body{
+	font-family: Verdana;
 	font-size: 1rem;
 	font-weight: 400;
 }
@@ -34,6 +42,7 @@ main{
 .menu-bar, .another{
 	background: linear-gradient(-90deg, #d38312, #a83279),
 	url("../img/tech/first.jpg") center no-repeat;
+	font-family: 'Montserrat', sans-serif;
 
 	/*background: linear-gradient(rgba(16,29,44,.95),rgba(16,29,44,.95)),
 	url("../img/tech/first.jpg") center no-repeat;*/

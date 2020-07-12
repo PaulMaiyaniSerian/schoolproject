@@ -7,12 +7,16 @@
 	height: 60vh;
 }*/
 
-.nav-link{
-	font-weight: 600;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
+/*.nav-link{
+	font-weight: 600!important;
+	font-family: 'Montserrat', sans-serif!important;
+	font-size: 13px!important;
 
 	
+}*/
+.nav-item .nav-link{
+	font-weight: 400!important;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .nav-item .active{
@@ -27,6 +31,7 @@ body{
 	font-family: Verdana;
 	font-size: 1rem;
 	font-weight: 400;
+	background-color: rgba(0,0,0,.05);
 }
 
 #text{
@@ -38,6 +43,10 @@ body{
 }
 .padded{
 	padding: 25px;
+}
+.padded-more{
+	padding: 35px;
+	margin-top: 10px;
 }
 .menu-bar, .another{
 	background: linear-gradient(-90deg, #d38312, #a83279),
@@ -114,4 +123,108 @@ body{
 }
 .move-left{
 	padding-left: 20%;
+}
+
+
+/*products*/
+#products-container{
+	margin-top: 0%;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	width: 100%;
+}
+#products-container h2{
+	background-color: #0062cc;
+	color: #fff;
+	font-size: 24px;
+	padding: 5px;
+	height: 40px;
+}
+#products-container img{
+	width: 100%; 
+}
+.product-bottom fa{
+	color: #28a745 !important;
+	font-size: 10px;
+}
+.product-bottom h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+.product-bottom h5{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.overlay{
+
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	margin-left: 0;
+	width: 70px;
+}
+.top-product:hover .overlay{
+	opacity: 1;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+.overlay .btn{
+	cursor: pointer !important;
+	background-color: #fff!important;
+	color: #000!important;
+	height: 35px!important;
+	width: 35px!important;
+	font-size: 20px!important;
+	padding: 7px!important;
+	margin: 5%!important;
+}
+.overlay .btn-secondary{
+	background: transparent;
+	border: none;
+	box-shadow: none !important;
+}
+.product-top img{
+	width: 100%;
+	height:300px;
+}
+.side-bar-head{
+	color: #0062cc;
+}
+section .nav-link{
+	color: #0E0C17;
+}
+#sideNavigation .active{
+	color: #EEB61E!important;
+}
+#sideNavigation a:hover{
+	color: #EEB61E!important;
+}
+.padded-top{
+	padding-top: 40px;
+}
+#fixed{
+	position: fixed;
+}
+#side-nav-toggler{
+	margin-top: 40px;
+	position: fixed;
+	z-index: 3;
+	cursor: pointer;
+}
+.side-nav{
+	margin-top: 110px;
+	height: 50%; /* Full-height: remove this if you want "auto" height */
+  	width: 160px; /* Set the width of the sidebar */
+  	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  	z-index: 2; /* Stay on top */
+  	top: 0; /* Stay at the top */
+ 	left: 0;
+  	background-color: #111; /* Black */
+  	overflow-x: hidden; /* Disable horizontal scroll */
+  	padding-top: 20px;
+}
+@media screen and (max-height: 450px) {
+  .side-nav {padding-top: 15px;}
+  .side-nav a {font-size: 18px;}
 }

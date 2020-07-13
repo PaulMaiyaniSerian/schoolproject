@@ -14,6 +14,25 @@
 
 	
 }*/
+.style-form{
+	text-align: center;
+}
+.reg-in{
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #FFF8F0;
+	
+	text-align: center;
+}
+.hoveradd:hover{
+	color: #d23335;
+}
+.pointer{
+	cursor: pointer;
+}
+.amount{
+	font-weight: 500;
+}
 .nav-item .nav-link{
 	font-weight: 400!important;
 	font-family: 'Montserrat', sans-serif;
@@ -64,6 +83,9 @@ body{
 }
 .shadowed {
 	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.light-shadowed{
+	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.1);
 }
 .margined{
 	margin-bottom: 20px;

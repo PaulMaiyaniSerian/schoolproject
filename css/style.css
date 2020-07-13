@@ -7,10 +7,17 @@
 	height: 60vh;
 }*/
 
+<<<<<<< HEAD
 /*.nav-link{
 	font-weight: 600!important;
 	font-family: 'Montserrat', sans-serif!important;
 	font-size: 13px!important;
+=======
+.nav-link{
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	
+>>>>>>> 287b535ec8bfd29638fceed9aeae0512f47852bc
 
 	
 }*/
@@ -146,6 +153,7 @@ body{
 .move-left{
 	padding-left: 20%;
 }
+<<<<<<< HEAD
 
 
 /*products*/
@@ -250,3 +258,5 @@ section .nav-link{
   .side-nav {padding-top: 15px;}
   .side-nav a {font-size: 18px;}
 }
+=======
+>>>>>>> 287b535ec8bfd29638fceed9aeae0512f47852bc

@@ -21,9 +21,14 @@
 
 	
 }*/
+
 .card-link:hover{
 	text-decoration: none;
 
+
+}
+#remove-outline{
+	outline: 0;
 }
 .payment-cards{
 	margin: 10px;

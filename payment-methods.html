@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body class="">
+<body style="background-color: #ededed;">
 <div class="menu-bar">
 
 	<nav class="navbar navbar-light fixed-top menu-bar  navbar-fixed-top navbar-expand-md">
@@ -41,7 +41,7 @@
 	</nav>
 </div>
 	<!-- this is the main page -->
-	<main class="page landing-page shadowed bg-faded padded-top">
+	<main class="page landing-page shadowed padded-top" id="bg-gray">
 
 
 
@@ -52,12 +52,12 @@
 
 				<div class="col-md-5">
 					<h3 class="text-center">Payment Methods</h3>
-					<a href="#" class="card-link padded " data-toggle='modal' data-target="#mpesa-modal">
+					<a href="#" class="card-link padded " data-toggle='modal' data-target="#mpesa-modal" id="remove-outline">
 					<div class="card card-hover">
 						<div class="card-header">
 						</div>
 						<div class="card-body">
-							<h2 class="card-text text-success">Mpesa</h2>
+							<h2 class="card-text text-success"><span><img src="img/mpesa1.png" class="img-fluid"></span></h2>
 						</div>
 					</div>
 					</a>
@@ -84,27 +84,94 @@
 						</div>
 					<!-- end mpesa modal -->
 
-					<a href="#" class=" padded">
+					<a href="https://www.paypal.com" class="card-link padded "id="remove-outline">
 					<div class="card card-hover">
 						<div class="card-header">
 						</div>
 						<div class="card-body">
-							<h2 class="card-text text-primary">Paypal</h2>
+							<h2 class="card-text text-primary"><span><i class="img-fluid fab fa-cc-paypal fa-5x"></i></span></h2>
 						</div>
 					</div>
 					</a>
 
+					
 
-					<a href="#" class=" padded">
+
+					<a href="#" class="card-link padded " data-toggle='modal' data-target="#creditcard-modal" id="remove-outline">
 					<div class="card card-hover">
 						<div class="card-header">
 						</div>
 						<div class="card-body">
-							<h2 class="card-info">Credit Card</h2>
+							<h2 class="card-info"><span><i class="fas fa-credit-card fa-5x img-fluid"></i></span></h2>
 						</div>
 					</div>
-					</a>
+					</a>	
+					
+					<!-- modal for credit card -->
+						<div class="modal fade" id="creditcard-modal" >
+							 <div class="modal-dialog modal-dialog-centered"><div class="modal-content">
 
+							<div class="modal-header">
+								<h3 class="lead modal-title text-primary">Set up Credit card</h3>
+							</div>
+							<div class="modal-body">
+								<p class="modal-text text-info">enter your credit card  details below</p>
+								<form>
+									<div class="form-row">
+										<div class="form-group col-md-12">
+											<label for="card-number">Card Number</label>
+											<input class="form-control" id="card-number" placeholder="card number 16digits" type=text>
+										</div>
+
+									<!-- this -->
+										<div class="form-group col-md-6">
+											<label for="expirymonth">Expiry Month</label>
+											<input class="form-control" id="expirymonth" placeholder="expiry month" type=text>
+										</div>
+
+										<div class="form-group col-md-6">
+											<label for="expiryyear">Expiry Year</label>
+											<input class="form-control" id="expiryyear" placeholder="expiry year" type=text>
+										</div>
+										<!-- this -->
+										<!-- address -->
+										<div class="form-group col-md-10">
+											<label for="address">Billing Address </label>
+											<input class="form-control" id="address" placeholder="address" type=text>
+										</div>
+										<!-- end address -->
+
+										<!-- this city state-->
+										<div class="form-group col-md-4">
+											<label for="city">City</label>
+											<input class="form-control" id="city" placeholder="city" type=text>
+										</div>
+
+										<div class="form-group col-md-4">
+											<label for="state" >State</label>
+											<input class="form-control" id="state" placeholder="state " type=text>
+										</div>
+
+
+										<div class="form-group col-md-4">
+											<label for="zip">Zip</label>
+											<input class="form-control" id="zip" placeholder="zip " type=text>
+										</div>
+										<!-- this -->
+
+
+									</div>
+									
+									
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-success">set Up</button>
+							</div>
+						</div>
+						</div>
+						</div>
+					<!-- end creditcard modal -->
 
 				</div>
 			</div>

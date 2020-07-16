@@ -1,8 +1,10 @@
-this is my frontend web design school project
+This is a simple frontend design for my school project 
 
-prerequisites>
-1.bootstrap4
-2.css
-3.html
-4.animate.css
-5.fontawesome
+you can use it as a starter in your own project to add a simple 
+
+1. contains--->
+		html
+		css
+		js
+		bootstrap
+		animate

@@ -21,15 +21,30 @@
 
 	
 }*/
+.card-link:hover{
+	text-decoration: none;
+
+}
+.payment-cards{
+	margin: 10px;
+	outline: none;
+}
 .style-form{
 	text-align: center;
 }
 .reg-in{
 	outline: none;
 	border: none;
-	border-bottom: 1px solid #FFF8F0;
-	
+	border-bottom: 4px solid #0D221F;
 	text-align: center;
+	padding: 10px;
+	background-color: #EDEDED;
+}
+.reg-in::placeholder{
+	color: #a83279;
+}
+.reg-btn:hover{
+	background-color: green;
 }
 .hoveradd:hover{
 	color: #d23335;
@@ -257,3 +272,5 @@ section .nav-link{
 @media screen and (max-height: 450px) {
   .side-nav {padding-top: 15px;}
   .side-nav a {font-size: 18px;}
+
+
